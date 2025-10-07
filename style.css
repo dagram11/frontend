@@ -1,0 +1,227 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+header {
+  background-color: #0f0f0f;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-radius: 20px;
+
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;           
+  max-width: 1200px;
+  margin: 0 auto;                
+  padding: 0 20px;               
+ 
+}
+
+
+.logo {
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #0f0;
+  font-weight: bold;
+}
+
+
+.menu {
+  display: flex;
+  gap: 30px; 
+  list-style: none; 
+}
+
+.menu a {
+  
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: #0f0;
+  
+}
+
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.login-btn,
+.signup-btn {
+  border-radius: 30px;
+  padding: 8px 20px; 
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  font-weight: bold;
+  
+}
+
+.login-btn {
+  background-color: #0f0; 
+  color: black;
+  border: 3px solid white;
+}
+
+.login-btn:hover {
+  background-color: #0c0;
+  color: white;
+}
+
+.signup-btn {
+  background-color: white;
+  color: black;
+  border: 3px solid #0c0;
+}
+
+.signup-btn:hover {
+  background-color: #0c0;
+  color: black;
+}
+
+
+
+/*Home Page*/
+
+
+.hero {
+  padding: 60px 0;
+  background-color: #2c2b2b;
+  width: 100%;
+  min-height: 100vh; 
+  border-radius: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 80px 0;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  max-width: 500px;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.btn.get-in-touch {
+  background-color: #0f0;
+  color: black;
+  border: none;
+  padding: 12px 44px;
+  border-radius: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+ 
+}
+
+.btn.get-in-touch:hover {
+  background-color: black;
+  color: white;
+}
+
+.hero-image {
+  flex: 1;
+  min-width: 300px;
+  max-height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 100%;          
+  height: auto;         
+  max-height: 80vh;     
+  min-height: 400px;    
+  object-fit: contain;  
+  border-radius: 8px;
+  
+}
+
+/*store*/
+
+.store-container {
+  padding: 60px 0;
+  background-color: #2c2b2b;
+  width: 100%;
+  min-height: 100vh; 
+  border-radius: 20px;
+}
+
+.product-title{
+    font-size: 45px;
+    font-weight: 400;
+    color: #0c0;
+}
+
+.searchInput {
+  padding: 60px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: #222;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+.container-element {
+    max-width:300px;
+    background-color: rgb(3, 136, 3);
+    align-items: center;
+    object-fit: contain;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.desc-btn, .cat-btn, .rate-btn, .ratecount-btn, .title-btn, .price-btn {
+    border-radius: 30px;
+    padding: 8px 20px; 
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.product-img{
+    border-radius: 20px;
+}
