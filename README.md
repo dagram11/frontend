@@ -19,3 +19,5 @@
 
 ## Optional
 - You can also implement in Angular by generating an Angular project and reusing the logic.
+- https://www.figma.com/design/fQaGIgHyUtqXBgmB1KNf8A/Untitled?node-id=0-1&p=f&t=AZ1WtrjNnyXTfazi-0
+
